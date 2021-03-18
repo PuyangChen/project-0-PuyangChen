@@ -8,11 +8,42 @@
 <html lang="en">
 <head>
     <title>Search</title>
+    <link rel="shortcut icon" href="../../img/icon.png">
+    <link href="../css/project0.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<form action="https://google.com/search">
-    <input type="text" name="q">
-    <input type="submit" value="Google Search">
-</form>
+<div class="option">
+    <div id="images">
+        <a href="images.html" >Images</a>
+    </div>
+    <div id="advanced_search">
+        <a href="asearch.html" >Advanced Search</a>
+    </div>
+
+</div>
+<div id="body">
+    <form action="https://google.com/search">
+        <img id="logo" alt="Google" height="92" src="../../img/google.png">
+        <div >
+            <div>
+                <img id="searchicon" alt="Search" height="30" src="../../img/search.jfif">
+            </div>
+            <div>
+                <input id="input" type="text" name="q">
+            </div>
+            <div>
+                <img id="voice" alt="Search by voice" height="30" src="../../img/voice.jfif">
+            </div>
+
+        </div>
+        <div id="button">
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky">
+        </div>
+
+
+    </form>
+</div>
+
 </body>
 </html>

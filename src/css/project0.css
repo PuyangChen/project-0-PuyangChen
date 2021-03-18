@@ -1,0 +1,45 @@
+/*-*- codeing = utf-8 -*-*/
+/*@Time : 2021-03-18 19:18*/
+/*@Author: Puyang Chen*/
+/*@File : project0.css*/
+/*@Software: WebStorm*/
+
+#images{
+    left: 80%;
+    top: 5%;
+    float: top;
+}
+#advanced_search{
+    left: 80%;
+    top: 5%;
+    float: left;
+}
+#logo{
+    height: 92px;
+}
+#searchicon{
+    float: left;
+}
+#input{
+    height: 50px;
+    width:400px;
+    border-color: gray;
+    border-radius: 20px;
+    border-image-outset: 12px;
+    float: left;
+}
+#voice{
+    float: left;
+}
+#body{
+    margin: 20%;
+    text-align: center;
+}
+#button input{
+    height: 40px;
+    width: 180px;
+    left:5px;
+    top:10px;
+    float: left;
+    font-size: 20px;
+}
