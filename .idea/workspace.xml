@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d390e14c-6ab7-4171-a7e3-0945aef6e760" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/advanced.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/images.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/project0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/project0.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/project0.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="d390e14c-6ab7-4171-a7e3-0945aef6e760" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +64,7 @@
       <updated>1616064677575</updated>
       <workItem from="1616064679448" duration="8910000" />
       <workItem from="1616392376923" duration="644000" />
-      <workItem from="1616393193768" duration="30858000" />
+      <workItem from="1616393193768" duration="31258000" />
     </task>
     <task id="LOCAL-00001" summary="Add first Google webpage">
       <created>1616065191021</created>
@@ -96,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616079045634</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version-2 0322">
+      <created>1616425493732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616425493732</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +104,7 @@
     <MESSAGE value="Add first webpage" />
     <MESSAGE value="Add first Google webpage" />
     <MESSAGE value="version-1 index_0318" />
-    <option name="LAST_COMMIT_MESSAGE" value="version-1 index_0318" />
+    <MESSAGE value="version-2 0322" />
+    <option name="LAST_COMMIT_MESSAGE" value="version-2 0322" />
   </component>
 </project>
