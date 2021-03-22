@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="https://google.com/search">
+    <div>
+        <span class="title">Advanced Search</span>
+        <span >
+                <input class="button" type="submit" value="Advanced Search">
+            </span>
+    </div>
+    <div class="line"></div>
+    <div>
+        <div class="question">
+            <span class="part_title">Find pages with...</span>
+            <span> <input class="hidden_box" disabled="disabled"></span>
+            <span class="text_info">To do this in the search box</span>
+        </div>
+        <div class="question">
+            <span class="request_title">all these words:</span>
+            <span> <input class="text_box" type="text" name="as_q"></span>
+            <span class="text_info">Type the important words:  tricolor rat terrier</span>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div>
+
+        <div class="question">
+            <span class="request_title">file type:</span>
+            <select id="question5" class="text_box" onchange="selectOption()">
+                <option value="">any format</option>
+                <option value="pdf">Adobe Acrobat PDF(.pdf)</option>
+                <option value="ps">Adobe Postscript(.ps)</option>
+                <option value="dwf">Autodesk DWF(.dwf)</option>
+                <option value="kml">Google Earth KML(.kml)</option>
+                <option value="kmz">Google Earth KMZ(.kmz)</option>
+                <option value="xls">Microsoft Excel(.xls)</option>
+                <option value="doc">Microsoft Word(.doc)</option>
+                <option value="rtf">Rich Text Format(.rtf)</option>
+                <option value="swf">Shockwave Flash(.swf)</option>
+            </select>
+            <span> <input id="answer5" class="hidden_attribution" type="text" name="as_filetype" readonly="readonly"></span>
+            <span class="text_info">Find pages in the format you prefer.</span>
+        </div>
+    </div>
+    <div class="line"></div>
+</form>
+
+
+</body>
+<script>
+    window.onload=selectOption;
+    function selectOption(){
+        document.getElementById('answer5').value=document.getElementById('question5').value;
+    }
+</script>
+</html>

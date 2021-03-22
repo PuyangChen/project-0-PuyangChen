@@ -4,42 +4,190 @@
 /*@File : project0.css*/
 /*@Software: WebStorm*/
 
-#images{
-    left: 80%;
-    top: 5%;
-    float: top;
-}
-#advanced_search{
-    left: 80%;
-    top: 5%;
+.left_option{
     float: left;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-right: 20px;
 }
-#logo{
-    height: 92px;
+
+.right_option{
+    float: right;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-right: 20px;
 }
-#searchicon{
-    float: left;
+
+a{
+    text-decoration: none;
+    color: gray ;
 }
-#input{
-    height: 50px;
-    width:400px;
-    border-color: gray;
-    border-radius: 20px;
-    border-image-outset: 12px;
-    float: left;
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-#voice{
-    float: left;
+
+.search_box{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    border: blue 0 solid;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 100px;
 }
-#body{
-    margin: 20%;
+
+.search_box > image{
+    margin: auto;
     text-align: center;
 }
-#button input{
+.left_option{
+    position: absolute;
+    padding: 0 20px 0 15px;
+}
+
+.button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search_icon{
+    display: inline;
+    float: left;
     height: 40px;
-    width: 180px;
-    left:5px;
-    top:10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.input_box{
+    display: inline;
+    height: 50px;
+    width:500px;
+    border-radius: 50px;
+    border-image-outset: 12px;
     float: left;
     font-size: 20px;
+    margin-left: 10px;
+    outline: none;
+}
+.voice_icon{
+    float: left;
+    display: inline;
+    height: 40px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.search_button{
+    height: 40px;
+    width: 200px;
+    float: left;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 140px;
+    text-align: center;
+    border-style:none;
+}
+.hidden_attribution{
+    display: none;
+}
+.lucky_button{
+    height: 40px;
+    width: 200px;
+    float: left;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    border-style:none;
+}
+
+.subtitle{
+    font-size: 20px;
+}
+
+.header{
+    background: lightgray;
+    height: 60px;
+    margin: 0 0 0 0;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title{
+    color: #d6211e;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.line{
+    height: 1px;
+    border-top: solid lightgray 1px;
+    margin: 30px 50px;
+}
+.question{
+    margin-top: 20px;
+}
+.part_title{
+    width: 240px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px 50px;
+    display: inline-block;
+}
+.hidden_box{
+    width: 400px;
+    height: 30px;
+    border-style: none;
+    background: none;
+    display: inline-block;
+}
+.request_title{
+    width: 240px;
+    height: 30px;
+    font-size: 18px;
+    margin: 5px 50px;
+    display: inline-block;
+    border: #d6211e 2px;
+}
+.text_box{
+    width: 400px;
+    height: 30px;
+    margin-left: 0;
+}
+
+.text_info{
+    margin-left: 30px;
+}
+
+select{
+    height: 30px;
+    font-size: 16px;
+}
+
+.button{
+    background-color: #426cf5;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 550px;
 }

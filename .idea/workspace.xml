@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d390e14c-6ab7-4171-a7e3-0945aef6e760" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/project0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/advanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/project0.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/googlelogo_color_272x92dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/project0.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/project0.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,14 +34,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pvXk8VBbAHDso13u1fUdqbGj4O" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../新建文件夹" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,6 +58,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Geniu\Desktop\Web\project-0-PuyangChen\src\html" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +71,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616064677575</updated>
-      <workItem from="1616064679448" duration="8394000" />
+      <workItem from="1616064679448" duration="8910000" />
+      <workItem from="1616392376923" duration="644000" />
+      <workItem from="1616393193768" duration="30858000" />
     </task>
     <task id="LOCAL-00001" summary="Add first Google webpage">
       <created>1616065191021</created>
@@ -65,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616065191021</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version-1 index_0318">
+      <created>1616079027729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616079027729</updated>
+    </task>
+    <task id="LOCAL-00003" summary="version-1 index_0318">
+      <created>1616079045634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616079045634</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add first webpage" />
     <MESSAGE value="Add first Google webpage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add first Google webpage" />
+    <MESSAGE value="version-1 index_0318" />
+    <option name="LAST_COMMIT_MESSAGE" value="version-1 index_0318" />
   </component>
 </project>
