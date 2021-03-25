@@ -4,6 +4,12 @@
 /*@File : project0.css*/
 /*@Software: WebStorm*/
 
+.title_logo{
+    margin-top: 10px;
+    margin-left: 5px;
+    /*border: red 2px solid;*/
+}
+
 .left_option{
     float: left;
     font-size: 18px;
@@ -31,19 +37,16 @@ body{
 
 .search_box{
     width: 700px;
-    height: 400px;
+    height: 500px;
     margin: auto;
     border: blue 0 solid;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
     line-height: 100px;
+
 }
 
-.search_box > image{
-    margin: auto;
-    text-align: center;
-}
 .left_option{
     position: absolute;
     padding: 0 20px 0 15px;
@@ -71,49 +74,62 @@ body{
     float: left;
     height: 40px;
     text-align: center;
-    margin-top: 10px;
-    margin-left: 40px;
+    margin-top: 2px;
+    margin-left: 10px;
+    /*border: #d6211e 2px solid;*/
 }
 .input_box{
-    display: inline;
-    height: 50px;
-    width:500px;
-    border-radius: 50px;
-    border-image-outset: 12px;
+    /*display: inline;*/
+    /*height: 50px;*/
+    /*width:500px;*/
+    /*border-radius: 50px;*/
+    /*border-image-outset: 12px;*/
     float: left;
-    font-size: 20px;
-    margin-left: 10px;
-    outline: none;
+    /*font-size: 20px;*/
+    /*margin-left: 10px;*/
+    /*outline: none;*/
+    width: 440px;
+    height: 40px;
+    border: none;
+    outline:none;
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    margin:2px 5px 0 0;
 }
 .voice_icon{
     float: left;
     display: inline;
     height: 40px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 5px;
+    /*border: #d6211e 2px solid;*/
 }
 
 .search_button{
-    height: 40px;
-    width: 200px;
+    height: 30px;
+    width: 150px;
     float: left;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-left: 140px;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 195px;
     text-align: center;
     border-style:none;
 }
+
+/*.search_button :hover{*/
+/*    display: none;*/
+/*}*/
 .hidden_attribution{
     display: none;
 }
 .lucky_button{
-    height: 40px;
-    width: 200px;
+    height: 30px;
+    width: 150px;
     float: left;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-left: 25px;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 20px;
     text-align: center;
     border-style:none;
 }
@@ -129,8 +145,7 @@ body{
 }
 
 .logo{
-    margin-top: 10px;
-    margin-left: 10px;
+    margin: auto;
 }
 
 .title{
@@ -167,7 +182,7 @@ body{
     font-size: 18px;
     margin: 5px 50px;
     display: inline-block;
-    border: #d6211e 2px;
+    /*border: #d6211e 2px;*/
 }
 .text_box{
     width: 400px;
@@ -190,4 +205,15 @@ select{
     font-size: 20px;
     margin-top: 30px;
     margin-left: 550px;
+}
+
+.context{
+    background-color:white;
+    border: rgb(218, 218, 218) solid 1px;
+    border-radius: 2em;
+    width: 550px;
+    height: 45px;
+    box-shadow: 0 0 5px rgb(212, 212, 212);
+    margin: auto;
+    /*border: #d6211e 2px solid;*/
 }

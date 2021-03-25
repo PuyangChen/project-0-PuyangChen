@@ -14,11 +14,8 @@ function selectOption(){
     document.getElementById('answer6').value=document.getElementById('question6').value;
 }
 
-function lucky(){
 
-}
-
-document.getElementById("lucky").onclick = function() {
-    document.getElementById("btnl").value="I'm Feeling Lucky";
-    document.getElementById("identify").value="AINFCbYAAAAAYFipKRhsgcOAIvuHmxY-z3M7KRb0p8FJ";
-};
+// document.getElementById("lucky").onclick = function() {
+//     document.getElementById("btnl").value="I'm Feeling Lucky";
+//     document.getElementById("identify").value="AINFCbYAAAAAYFipKRhsgcOAIvuHmxY-z3M7KRb0p8FJ";
+// };
